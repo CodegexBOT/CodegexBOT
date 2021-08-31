@@ -1,0 +1,16 @@
+{
+    "repo": "duke",
+    "id": "6",
+    "total": 1,
+    "items": [
+        {
+            "type": "UI_INHERITANCE_UNSAFE_GETRESOURCE",
+            "file_name": "src/main/java/Storage.java",
+            "commit_sha": "d36f9d69b416611107fe2f79ceb02c1beae80f7e",
+            "line_no": 56,
+            "priority": 5,
+            "description": "Usage of GetResource may be unsafe if class is extended",
+            "line_content": "          InputStream resourceAsStream = this.getClass().getResourceAsStream(DB_SCHEMA);\n"
+        }
+    ]
+}

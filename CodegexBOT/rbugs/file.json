@@ -1,0 +1,14 @@
+[
+  {
+    "sha": "25b3400fa09cc81b7f093d78400e4215aa983616",
+    "filename": "FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "status": "added",
+    "additions": 5,
+    "deletions": 0,
+    "changes": 5,
+    "blob_url": "https://github.com/EricLee543/Testbench/blob/45ae48faddca8a829163da2e5d1d1749b2f7ea1d/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "raw_url": "https://github.com/EricLee543/Testbench/raw/45ae48faddca8a829163da2e5d1d1749b2f7ea1d/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "contents_url": "https://api.github.com/repos/EricLee543/Testbench/contents/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java?ref=45ae48faddca8a829163da2e5d1d1749b2f7ea1d",
+    "patch": "@@ -0,0 +1,5 @@\n+public class FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER {\n+    boolean test1(int op){\n+        return 0 > Float.NaN;\n+}\n+} "
+  }
+]

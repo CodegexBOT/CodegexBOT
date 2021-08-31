@@ -1,0 +1,38 @@
+[
+  {
+    "sha": "25b3400fa09cc81b7f093d78400e4215aa983616",
+    "filename": "FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "status": "added",
+    "additions": 5,
+    "deletions": 0,
+    "changes": 5,
+    "blob_url": "https://github.com/EricLee543/Testbench/blob/3688bb04a9c62cd9a67d23cf361a113e70965e22/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "raw_url": "https://github.com/EricLee543/Testbench/raw/3688bb04a9c62cd9a67d23cf361a113e70965e22/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+    "contents_url": "https://api.github.com/repos/EricLee543/Testbench/contents/FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java?ref=3688bb04a9c62cd9a67d23cf361a113e70965e22",
+    "patch": "@@ -0,0 +1,5 @@\n+public class FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER {\n+    boolean test1(int op){\n+        return 0 > Float.NaN;\n+}\n+} "
+  },
+  {
+    "sha": "803ae2e7123b87e41d5f8adcbdf34ddb2c007734",
+    "filename": "TwentyNine.java",
+    "status": "added",
+    "additions": 25,
+    "deletions": 0,
+    "changes": 25,
+    "blob_url": "https://github.com/EricLee543/Testbench/blob/3688bb04a9c62cd9a67d23cf361a113e70965e22/TwentyNine.java",
+    "raw_url": "https://github.com/EricLee543/Testbench/raw/3688bb04a9c62cd9a67d23cf361a113e70965e22/TwentyNine.java",
+    "contents_url": "https://api.github.com/repos/EricLee543/Testbench/contents/TwentyNine.java?ref=3688bb04a9c62cd9a67d23cf361a113e70965e22",
+    "patch": "@@ -0,0 +1,25 @@\n+public class TwentyNine {\n+    public static void main(String[] args) {\n+        int a = 27;\n+        int b = 39;\n+        int c = 36;\n+\n+        if (a > b & b>c) {\n+            System.out.print(c+\" \"+b+\" \"+a);\n+        } else if (a<b & b<c){\n+            System.out.println(a+\" \"+b+\" \"+c);\n+        }else if (a<c & c<b) {\n+            System.out.println(a+\" \"+c+\" \"+b);\n+        } else if (a>c & c>b) {\n+            System.out.println(b+\" \"+c+\" \"+a);\n+        }else if (c<a & a<b) {\n+            System.out.println(c+\" \"+a+\" \"+b);\n+        }else if (b<a & a<c) {\n+            System.out.println(b+\" \"+a+\" \"+c);\n+        }else {\n+            System.out.println(\"urish xhi tarberak chkar?\");\n+        }\n+\n+    }\n+}\n+"
+  },
+  {
+    "sha": "fec69c2a62ce97e9f666612bf554d2f4c29cd9ac",
+    "filename": "XStreamDOMTest.java",
+    "status": "added",
+    "additions": 5,
+    "deletions": 0,
+    "changes": 5,
+    "blob_url": "https://github.com/EricLee543/Testbench/blob/3688bb04a9c62cd9a67d23cf361a113e70965e22/XStreamDOMTest.java",
+    "raw_url": "https://github.com/EricLee543/Testbench/raw/3688bb04a9c62cd9a67d23cf361a113e70965e22/XStreamDOMTest.java",
+    "contents_url": "https://api.github.com/repos/EricLee543/Testbench/contents/XStreamDOMTest.java?ref=3688bb04a9c62cd9a67d23cf361a113e70965e22",
+    "patch": "@@ -0,0 +1,5 @@\n+public void testMarshal() throws IOException {\n+        Foo foo = createSomeFoo();\n+        String xml = xs.toXML(foo);\n+        System.out.println(xml);\n+        assertEquals(IOUtils.toString(getClass().getResourceAsStream(\"XStreamDOMTest.data1.xml\")).trim(),xml.trim());"
+  }
+]

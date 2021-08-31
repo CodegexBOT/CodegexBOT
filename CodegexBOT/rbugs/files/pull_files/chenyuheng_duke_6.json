@@ -1,0 +1,14 @@
+[
+    {
+        "sha": "67d4b5e8753b7f3c43e58e65ac3526851954096e",
+        "filename": "src/main/java/Storage.java",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/chenyuheng/duke/blob/d36f9d69b416611107fe2f79ceb02c1beae80f7e/src/main/java/Storage.java",
+        "raw_url": "https://github.com/chenyuheng/duke/raw/d36f9d69b416611107fe2f79ceb02c1beae80f7e/src/main/java/Storage.java",
+        "contents_url": "https://api.github.com/repos/chenyuheng/duke/contents/src/main/java/Storage.java?ref=d36f9d69b416611107fe2f79ceb02c1beae80f7e",
+        "patch": "@@ -48,4 +48,11 @@ public boolean store(ArrayList<Task> taskList) {\n         }\n         return true;\n     }\n+    \n+    public void bot_test() throws SQLException {\n+          runner.setStopOnError(true);\n+          runner.setLogWriter(logWriter);\n+          runner.setErrorLogWriter(errorLogWriter);\n+          InputStream resourceAsStream = this.getClass().getResourceAsStream(DB_SCHEMA);\n+    }\n }"
+    }
+]

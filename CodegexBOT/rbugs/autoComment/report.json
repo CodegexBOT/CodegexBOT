@@ -1,0 +1,25 @@
+{
+    "repo": "Testbench",
+    "id": "2",
+    "total": 2,
+    "items": [
+        {
+            "type": "FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER",
+            "file_name": "FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER.java",
+            "commit_sha": "3688bb04a9c62cd9a67d23cf361a113e70965e22",
+            "line_no": 3,
+            "priority": 1,
+            "description": "Doomed test for equality to NaN",
+            "line_content": "        return 0 > Float.NaN;\n"
+        },
+        {
+            "type": "UI_INHERITANCE_UNSAFE_GETRESOURCE",
+            "file_name": "XStreamDOMTest.java",
+            "commit_sha": "3688bb04a9c62cd9a67d23cf361a113e70965e22",
+            "line_no": 5,
+            "priority": 5,
+            "description": "Usage of GetResource may be unsafe if class is extended",
+            "line_content": "        assertEquals(IOUtils.toString(getClass().getResourceAsStream(\"XStreamDOMTest.data1.xml\")).trim(),xml.trim());"
+        }
+    ]
+}
